@@ -4,7 +4,7 @@ public class cond {
         System.out.println("enter your age");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
-        if (age < 18) {
+        if (age >= 18) {
             System.out.println("you are eligible for vote");
         }
             else {
